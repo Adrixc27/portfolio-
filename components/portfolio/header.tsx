@@ -24,7 +24,7 @@ export function Header() {
           href="/"
           className="text-xl font-bold text-foreground hover:text-primary transition-colors"
         >
-          {"<Dev />"}
+          {"ꨄ"}
         </Link>
 
         <ul className="hidden md:flex items-center gap-8">
