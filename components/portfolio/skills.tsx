@@ -15,7 +15,7 @@ const skillCategories = [
   },
   {
     title: "Otros",
-    skills: ["REST APIs", "GraphQL", "Testing", "Scrum", "Figma", "UI/UX"],
+    skills: ["REST APIs", "GraphQL", "Testing", "Scrum", "Figma", "UI/UX", "IA Tools"],
   },
 ]
 
