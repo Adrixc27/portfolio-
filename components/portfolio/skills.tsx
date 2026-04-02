@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "Redis"],
+    skills: ["Node.js", "Python", "PostgreSQL & MySQL", "MongoDB", "Lua"],
   },
   {
     title: "DevOps & Tools",
@@ -15,7 +15,7 @@ const skillCategories = [
   },
   {
     title: "Otros",
-    skills: ["REST APIs", "GraphQL", "Testing", "Agile/Scrum", "Figma", "UI/UX"],
+    skills: ["REST APIs", "GraphQL", "Testing", "Scrum", "Figma", "UI/UX", "IA Tools"],
   },
 ]
 
@@ -37,7 +37,7 @@ export function Skills() {
               </h3>
               <ul className="space-y-2">
                 {category.skills.map((skill) => (
-                  <li 
+                  <li
                     key={skill}
                     className="flex items-center gap-3 text-muted-foreground"
                   >

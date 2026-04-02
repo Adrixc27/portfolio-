@@ -4,9 +4,8 @@ import Link from "next/link"
 import { Github, Linkedin, Twitter, Mail } from "lucide-react"
 
 const socialLinks = [
-  { href: "https://github.com/tuusuario", icon: Github, label: "GitHub" },
+  { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com/in/tuusuario", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://twitter.com/tuusuario", icon: Twitter, label: "Twitter" },
   { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
 ]
 
@@ -29,19 +28,19 @@ export function Footer() {
               </Link>
             ))}
           </div>
-          
+
           <p className="text-muted-foreground text-sm font-mono text-center">
             Diseñado & Construido por{" "}
-            <Link 
-              href="https://github.com/tuusuario"
+            <Link
+              href="https://github.com/Adrixc27"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              Tu Nombre
+              Adrian Mendoza
             </Link>
           </p>
-          
+
           <p className="text-muted-foreground text-sm font-mono">
             {new Date().getFullYear()}
           </p>

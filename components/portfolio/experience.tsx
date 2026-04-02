@@ -5,27 +5,19 @@ import Link from "next/link"
 
 const experiences = [
   {
-    period: "2023 — Presente",
+    period: "2026 — Presente",
     title: "Full Stack Developer",
-    company: "Tu Empresa",
+    company: "Freelancer",
     companyUrl: "#",
-    description: "Desarrollo y mantenimiento de aplicaciones web utilizando React, Node.js y PostgreSQL. Colaboracion con equipos de diseño para implementar interfaces de usuario accesibles y responsivas.",
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+    description: "Desarrollador Full Stack con sólida experiencia en el diseño, desarrollo e implementación de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologías de programación. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores prácticas de desarrollo",
+    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Python"],
   },
   {
-    period: "2021 — 2023",
-    title: "Frontend Developer",
-    company: "Otra Empresa",
-    companyUrl: "#",
-    description: "Construccion de componentes UI reutilizables y optimizacion del rendimiento de aplicaciones. Implementacion de tests automatizados y mejora de la experiencia de usuario.",
-    technologies: ["Vue.js", "JavaScript", "Tailwind CSS", "Jest"],
-  },
-  {
-    period: "2020 — 2021",
+    period: "2024 — 2026",
     title: "Junior Developer",
-    company: "Startup Tech",
-    companyUrl: "#",
-    description: "Desarrollo de features para aplicaciones web, correccion de bugs y participacion activa en code reviews. Aprendizaje continuo de mejores practicas de desarrollo.",
+    company: "MA Desgings",
+    companyUrl: "https://www.agenciamadesigns.com/inicio",
+    description: "Responsable del diseño y desarrollo de sitios web, gestionando de manera integral tanto el frontend como el backend, Encargado de crear interfaces atractivas y funcionales, así como de implementar la lógica y estructura necesarias para garantizar un rendimiento óptimo y una experiencia de usuario eficiente",
     technologies: ["HTML", "CSS", "JavaScript", "React", "Git"],
   },
 ]
@@ -42,18 +34,18 @@ export function Experience() {
 
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <div 
+            <div
               key={index}
               className="group grid md:grid-cols-[200px_1fr] gap-4 p-6 rounded-lg hover:bg-secondary/50 transition-colors"
             >
               <p className="text-sm text-muted-foreground font-mono">
                 {exp.period}
               </p>
-              
+
               <div>
                 <h3 className="text-foreground font-medium mb-1">
                   {exp.title} ·{" "}
-                  <Link 
+                  <Link
                     href={exp.companyUrl}
                     className="text-primary inline-flex items-center gap-1 hover:underline"
                     target="_blank"
@@ -63,14 +55,14 @@ export function Experience() {
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
                 </h3>
-                
+
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                   {exp.description}
                 </p>
-                
+
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech) => (
-                    <span 
+                    <span
                       key={tech}
                       className="px-3 py-1 bg-primary/10 text-primary text-xs font-mono rounded-full"
                     >
@@ -83,7 +75,7 @@ export function Experience() {
           ))}
         </div>
 
-        <Link 
+        <Link
           href="/resume.pdf"
           className="mt-12 inline-flex items-center gap-2 text-primary hover:underline font-medium"
         >
