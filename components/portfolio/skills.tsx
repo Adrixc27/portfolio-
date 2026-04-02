@@ -7,7 +7,7 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL & MySQL", "MongoDB"],
+    skills: ["Node.js", "Python", "PostgreSQL & MySQL", "MongoDB", "Lua"],
   },
   {
     title: "DevOps & Tools",

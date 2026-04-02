@@ -4,10 +4,10 @@ import Link from "next/link"
 import { Github, Linkedin, Mail } from "lucide-react"
 
 const navLinks = [
-  { href: "#about", label: "Sobre Mi" },
-  { href: "#experience", label: "Experiencia" },
-  { href: "#projects", label: "Proyectos" },
-  { href: "#contact", label: "Contacto" },
+  { id: "about", label: "Sobre Mi" },
+  { id: "experience", label: "Experiencia" },
+  { id: "projects", label: "Proyectos" },
+  { id: "contact", label: "Contacto" },
 ]
 
 const socialLinks = [
@@ -15,6 +15,13 @@ const socialLinks = [
   { href: "https://www.linkedin.com/in/adrian-mendoza-1b36b9400/", icon: Linkedin, label: "LinkedIn" },
   { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
 ]
+
+function scrollToSection(id: string) {
+  const el = document.getElementById(id)
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" })
+  }
+}
 
 export function Header() {
   return (
@@ -29,13 +36,13 @@ export function Header() {
 
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <li key={link.href}>
-              <Link
-                href={link.href}
-                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
+            <li key={link.id}>
+              <button
+                onClick={() => scrollToSection(link.id)}
+                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium cursor-pointer"
               >
                 {link.label}
-              </Link>
+              </button>
             </li>
           ))}
         </ul>
