@@ -10,7 +10,7 @@ const experiences = [
     company: "Freelancer",
     companyUrl: "#",
     description: "Desarrollador Full Stack con sólida experiencia en el diseño, desarrollo e implementación de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologías de programación. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores prácticas de desarrollo",
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL",],
+    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Python"],
   },
   {
     period: "2024 — 2026",
