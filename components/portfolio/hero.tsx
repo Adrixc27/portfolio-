@@ -9,27 +9,50 @@ export function Hero() {
       id="about"
       className="min-h-screen flex flex-col justify-center pt-20 px-6"
     >
-      <div className="container mx-auto max-w-4xl">
-        <p className="text-primary font-mono text-sm mb-4">
-          Hola, mi nombre es
-        </p>
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Contenido de texto */}
+          <div>
+            <p className="text-primary font-mono text-sm mb-4">
+              Hola, mi nombre es
+            </p>
 
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-foreground mb-4 text-balance">
-          Adrian Mendoza
-        </h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 text-balance">
+              Adrian Mendoza
+            </h1>
 
-        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-muted-foreground mb-8 text-balance">
-          Construyo experiencias digitales
-        </h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-muted-foreground mb-8 text-balance">
+              Construyo experiencias digitales
+            </h2>
 
-        <p className="text-muted-foreground text-lg max-w-2xl mb-12 leading-relaxed">
-          Soy un <span className="text-primary font-medium">desarrollador Full Stack</span> especializado
-          en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario,
-          Actualmente enfocado en construir productos digitales que combinen diseño elegante
-          con ingenieria robusta.
-        </p>
+            <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
+              Soy un <span className="text-primary font-medium">desarrollador Full Stack</span> especializado
+              en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario.
+              Actualmente enfocado en construir productos digitales que combinen diseño elegante
+              con ingenieria robusta.
+            </p>
+          </div>
 
-        <div className="flex flex-wrap gap-4">
+          {/* Sección de foto */}
+          <div className="flex justify-center items-center">
+            <div className="relative w-80 h-80 md:w-96 md:h-96">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg blur-2xl"></div>
+              <div className="relative w-full h-full bg-gradient-to-br from-card to-card/80 border border-primary/30 rounded-lg flex items-center justify-center overflow-hidden group">
+                <img
+                  src="/profile.jpg"
+                  alt="Foto de perfil"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  onError={(e) => {
+                    e.currentTarget.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"%3E%3Crect fill="%23334155" width="400" height="400"/%3E%3Ccircle cx="200" cy="130" r="50" fill="%2364748b"/%3E%3Cpath d="M100 250 Q100 200 200 200Q300 200 300 250L300 350Q200 400 100 350Z" fill="%2364748b"/%3E%3C/svg%3E'
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Botones */}
+        <div className="mt-16 flex flex-wrap gap-4">
           <Link
             href="#projects"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:opacity-90 transition-opacity"
