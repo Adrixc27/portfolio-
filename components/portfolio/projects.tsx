@@ -9,7 +9,7 @@ const featuredProjects = [
     description: "Plataforma de comercio electronico completa con carrito de compras, pagos con Stripe, panel de administracion y gestion de inventario. Incluye autenticacion de usuarios y dashboard analitico.",
     technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe"],
     github: "https://github.com",
-    live: "https://proyecto1.com",
+    live: "https://adrixc27.github.io/Pagina/gato.html",
     image: "/projects/ecommerce.jpg",
   },
   {
@@ -17,7 +17,7 @@ const featuredProjects = [
     description: "Aplicacion de gestion de tareas con drag and drop, colaboracion en tiempo real, notificaciones y organizacion por proyectos. Implementa WebSockets para actualizaciones en vivo.",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
     github: "https://github.com",
-    live: "https://proyecto2.com",
+    live: "https://adrixc27.github.io/Pagina/gato.html",
     image: "/projects/taskapp.jpg",
   },
   {
@@ -25,7 +25,7 @@ const featuredProjects = [
     description: "Herramienta de generacion de contenido impulsada por IA que permite crear articulos, posts para redes sociales y descripciones de productos utilizando modelos de lenguaje avanzados.",
     technologies: ["Next.js", "OpenAI API", "Vercel AI SDK", "Supabase"],
     github: "https://github.com",
-    live: "https://proyecto3.com",
+    live: "https://adrixc27.github.io/Pagina/gato.html",
     image: "/projects/aigenerator.jpg",
   },
 ]
@@ -36,11 +36,11 @@ const otherProjects = [
     description: "Dashboard del clima con pronosticos extendidos, graficos interactivos y geolocalizacion.",
     technologies: ["React", "Chart.js", "OpenWeather API"],
     github: "https://github.com",
-    live: "https://weather.com",
+    live: "#",
   },
   {
-    title: "Portfolio Template",
-    description: "Template de portfolio minimalista y responsive para desarrolladores.",
+    title: "Shop Template",
+    description: "Template de tienda minimalista y responsive para desarrolladores.",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com",
     live: "#",
@@ -88,11 +88,10 @@ export function Projects() {
         {/* Featured Projects */}
         <div className="space-y-24 mb-24">
           {featuredProjects.map((project, index) => (
-            <div 
+            <div
               key={index}
-              className={`grid lg:grid-cols-2 gap-8 items-center ${
-                index % 2 === 1 ? "lg:direction-rtl" : ""
-              }`}
+              className={`grid lg:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? "lg:direction-rtl" : ""
+                }`}
             >
               <div className={`${index % 2 === 1 ? "lg:order-2" : ""}`}>
                 <p className="text-primary font-mono text-sm mb-2">Proyecto Destacado</p>
@@ -104,7 +103,7 @@ export function Projects() {
                 </div>
                 <div className="flex flex-wrap gap-3 mb-6">
                   {project.technologies.map((tech) => (
-                    <span 
+                    <span
                       key={tech}
                       className="text-muted-foreground text-sm font-mono"
                     >
@@ -113,7 +112,7 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <Link 
+                  <Link
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -122,7 +121,7 @@ export function Projects() {
                   >
                     <Github className="h-5 w-5" />
                   </Link>
-                  <Link 
+                  <Link
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -133,7 +132,7 @@ export function Projects() {
                   </Link>
                 </div>
               </div>
-              
+
               <div className={`${index % 2 === 1 ? "lg:order-1" : ""}`}>
                 <div className="relative aspect-video bg-card rounded-lg overflow-hidden group">
                   <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors" />
@@ -150,17 +149,17 @@ export function Projects() {
         <h3 className="text-xl font-bold text-foreground text-center mb-8">
           Otros Proyectos
         </h3>
-        
+
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {otherProjects.map((project, index) => (
-            <div 
+            <div
               key={index}
               className="group bg-card p-6 rounded-lg hover:-translate-y-2 transition-transform duration-300"
             >
               <div className="flex items-center justify-between mb-6">
                 <Folder className="h-10 w-10 text-primary" />
                 <div className="flex gap-3">
-                  <Link 
+                  <Link
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -170,7 +169,7 @@ export function Projects() {
                     <Github className="h-5 w-5" />
                   </Link>
                   {project.live !== "#" && (
-                    <Link 
+                    <Link
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -182,18 +181,18 @@ export function Projects() {
                   )}
                 </div>
               </div>
-              
+
               <h4 className="text-foreground font-medium mb-2 group-hover:text-primary transition-colors">
                 {project.title}
               </h4>
-              
+
               <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
                 {project.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech) => (
-                  <span 
+                  <span
                     key={tech}
                     className="text-muted-foreground text-xs font-mono"
                   >
