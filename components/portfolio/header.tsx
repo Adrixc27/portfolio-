@@ -11,8 +11,8 @@ const navLinks = [
 ]
 
 const socialLinks = [
-  { href: "https://github.com", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
+  { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
+  { href: "https://www.linkedin.com/in/adrian-mendoza-1b36b9400/", icon: Linkedin, label: "LinkedIn" },
   { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
 ]
 
@@ -20,17 +20,17 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="text-xl font-bold text-foreground hover:text-primary transition-colors"
         >
           {"<Dev />"}
         </Link>
-        
+
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <Link 
+              <Link
                 href={link.href}
                 className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
               >
