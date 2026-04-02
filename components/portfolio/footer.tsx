@@ -1,0 +1,52 @@
+"use client"
+
+import Link from "next/link"
+import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+
+const socialLinks = [
+  { href: "https://github.com/tuusuario", icon: Github, label: "GitHub" },
+  { href: "https://linkedin.com/in/tuusuario", icon: Linkedin, label: "LinkedIn" },
+  { href: "https://twitter.com/tuusuario", icon: Twitter, label: "Twitter" },
+  { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
+]
+
+export function Footer() {
+  return (
+    <footer className="py-8 px-6 border-t border-border">
+      <div className="container mx-auto max-w-4xl">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-4 md:hidden">
+            {socialLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label={link.label}
+              >
+                <link.icon className="h-5 w-5" />
+              </Link>
+            ))}
+          </div>
+          
+          <p className="text-muted-foreground text-sm font-mono text-center">
+            Diseñado & Construido por{" "}
+            <Link 
+              href="https://github.com/tuusuario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              Tu Nombre
+            </Link>
+          </p>
+          
+          <p className="text-muted-foreground text-sm font-mono">
+            {new Date().getFullYear()}
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
