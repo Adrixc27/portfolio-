@@ -1,7 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, Github, Linkedin } from "lucide-react"
+import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
@@ -10,19 +11,19 @@ const socialLinks = [
 ]
 
 export function Contact() {
+  const { t } = useLanguage()
+
   return (
     <section id="contact" className="py-24 px-6">
       <div className="container mx-auto max-w-2xl text-center">
-        <p className="text-primary font-mono text-sm mb-4">04. Y ahora?</p>
+        <p className="text-primary font-mono text-sm mb-4">{t.contact.preTitle}</p>
 
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
-          Hablemos
+          {t.contact.title}
         </h2>
 
         <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
-          Actualmente estoy abierto a nuevas oportunidades y mi inbox siempre esta disponible.
-          Ya sea que tengas una pregunta, una propuesta de proyecto, o simplemente quieras saludar,
-          hare todo lo posible por responderte :D
+          {t.contact.description}
         </p>
 
         <Link
@@ -30,7 +31,7 @@ export function Contact() {
           className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-md hover:opacity-90 transition-opacity text-lg"
         >
           <Mail className="h-5 w-5" />
-          Enviar Email
+          {t.contact.cta}
         </Link>
 
         <div className="flex justify-center gap-6 mt-12">

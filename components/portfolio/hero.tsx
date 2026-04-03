@@ -2,8 +2,11 @@
 
 import { ArrowDown } from "lucide-react"
 import Link from "next/link"
+import { useLanguage } from "@/lib/language-context"
 
 export function Hero() {
+  const { t } = useLanguage()
+
   return (
     <section
       id="about"
@@ -14,7 +17,7 @@ export function Hero() {
           {/* Contenido de texto */}
           <div>
             <p className="text-primary font-mono text-sm mb-4">
-              Hola, mi nombre es
+              {t.hero.greeting}
             </p>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-foreground mb-4 text-balance">
@@ -22,14 +25,20 @@ export function Hero() {
             </h1>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-muted-foreground mb-8 text-balance">
-              Construyo experiencias digitales
+              {t.hero.tagline}
             </h2>
 
             <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
-              Soy un <span className="text-primary font-medium">desarrollador Full Stack</span> especializado
-              en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario.
-              Actualmente enfocado en construir productos digitales que combinen diseño elegante
-              con ingenieria robusta.
+              {t.hero.description.split(t.hero.descriptionHighlight).map((part, i, arr) =>
+                i < arr.length - 1 ? (
+                  <span key={i}>
+                    {part}
+                    <span className="text-primary font-medium">{t.hero.descriptionHighlight}</span>
+                  </span>
+                ) : (
+                  <span key={i}>{part}</span>
+                )
+              )}
             </p>
           </div>
 
@@ -57,13 +66,13 @@ export function Hero() {
             href="#projects"
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:opacity-90 transition-opacity"
           >
-            Ver Proyectos
+            {t.hero.cta}
           </Link>
           <Link
             href="#contact"
             className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-medium rounded-md hover:bg-primary/10 transition-colors"
           >
-            Contactame
+            {t.hero.ctaContact}
           </Link>
         </div>
 

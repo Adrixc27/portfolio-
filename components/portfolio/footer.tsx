@@ -1,7 +1,8 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
+import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
@@ -10,6 +11,8 @@ const socialLinks = [
 ]
 
 export function Footer() {
+  const { t } = useLanguage()
+
   return (
     <footer className="py-8 px-6 border-t border-border">
       <div className="container mx-auto max-w-4xl">
@@ -30,7 +33,7 @@ export function Footer() {
           </div>
 
           <p className="text-muted-foreground text-sm font-mono text-center">
-            Diseñado & Construido por{" "}
+            {t.footer.builtBy}{" "}
             <Link
               href="https://github.com/Adrixc27"
               target="_blank"
