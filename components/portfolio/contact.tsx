@@ -22,7 +22,7 @@ export function Contact() {
         <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
           Actualmente estoy abierto a nuevas oportunidades y mi inbox siempre esta disponible.
           Ya sea que tengas una pregunta, una propuesta de proyecto, o simplemente quieras saludar,
-          hare todo lo posible por responderte
+          hare todo lo posible por responderte :D
         </p>
 
         <Link
