@@ -1,23 +1,15 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Mail } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
-  { href: "https://www.linkedin.com/in/adrian-mendoza-1b36b9400/", icon: Linkedin, label: "LinkedIn" },
-  { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
+  { href: "mailto:adrimend0407@gmail.com", icon: Mail, label: "adrimend0407@gmail.com" },
 ]
 
 const navIds = ["about", "experience", "projects", "contact"] as const
-
-function scrollToSection(id: string) {
-  const el = document.getElementById(id)
-  if (el) {
-    el.scrollIntoView({ behavior: "smooth", block: "start" })
-  }
-}
 
 export function Header() {
   const { language, setLanguage, t } = useLanguage()
@@ -42,12 +34,12 @@ export function Header() {
         <ul className="hidden md:flex items-center gap-8">
           {navIds.map((id) => (
             <li key={id}>
-              <button
-                onClick={() => scrollToSection(id)}
-                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium cursor-pointer"
+              <a
+                href={`#${id}`}
+                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
               >
                 {navLabels[id]}
-              </button>
+              </a>
             </li>
           ))}
         </ul>

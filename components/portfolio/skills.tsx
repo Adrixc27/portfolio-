@@ -3,10 +3,10 @@
 import { useLanguage } from "@/lib/language-context"
 
 const skillsByCategory = [
-  ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML/CSS"],
-  ["Node.js", "Python", "PostgreSQL & MySQL", "MongoDB", "Lua"],
-  ["Git", "Docker", "AWS", "Vercel", "CI/CD", "Linux"],
-  ["REST APIs", "GraphQL", "Testing", "Scrum", "Figma", "UI/UX", "IA Tools"],
+  ["Figma", "UI/UX", "React", "Next.js", "TypeScript", "Tailwind CSS"],
+  ["HTML", "CSS", "JavaScript", "Responsive Design"],
+  ["Git", "Vercel", "Design Systems", "Prototyping"],
+  ["Usability", "Accessibility", "Component Design"],
 ]
 
 export function Skills() {

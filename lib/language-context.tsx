@@ -16,11 +16,11 @@ export const translations = {
     // Hero
     hero: {
       greeting: "Hola, mi nombre es",
-      tagline: "Construyo experiencias digitales",
+      tagline: "Web Designer & Developer",
       description:
-        "Soy un desarrollador Full Stack especializado en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario. Actualmente enfocado en construir productos digitales que combinen diseño elegante con ingenieria robusta.",
-      descriptionHighlight: "desarrollador Full Stack",
-      cta: "Ver Proyectos",
+        "Soy un desarrollador web enfocado en crear sitios y experiencias digitales modernas, funcionales y visualmente atractivas. Me interesa combinar el diseño de interfaces con el desarrollo frontend para construir productos digitales que ofrezcan una experiencia intuitiva y una identidad visual única",
+      descriptionHighlight: "diseño de interfaces y desarrollo front-end",
+      cta: "Ver Proyecto",
       ctaContact: "Contactame",
     },
     // Experience
@@ -32,17 +32,17 @@ export const translations = {
       jobs: [
         {
           period: "2026 — Presente",
-          title: "Full Stack Developer",
+          title: "Web Designer & Developer",
           company: "Freelancer",
           companyUrl: "#",
           description:
-            "Desarrollador Full Stack con solida experiencia en el diseno, desarrollo e implementacion de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologias de programacion. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores practicas de desarrollo.",
+            "Desarrollador Web con solida experiencia en el diseño, desarrollo e implementacion de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologias de programacion. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores practicas de desarrollo.",
         },
         {
           period: "2024 — 2026",
           title: "Junior Developer",
           company: "MA Designs",
-          companyUrl: "https://www.agenciamadesigns.com/inicio",
+          companyUrl: "https://www.agenciamadesigns.com/",
           description:
             "Responsable del diseno y desarrollo de sitios web, gestionando de manera integral tanto el frontend como el backend. Encargado de crear interfaces atractivas y funcionales, asi como de implementar la logica y estructura necesarias para garantizar un rendimiento optimo y una experiencia de usuario eficiente.",
         },
@@ -54,53 +54,31 @@ export const translations = {
       sectionTitle: "Proyectos Destacados",
       featuredLabel: "Proyecto Destacado",
       otherTitle: "Otros Proyectos",
-      githubLabel: "Ver codigo en GitHub",
+      githubLabel: "Ver código en GitHub",
       liveLabel: "Ver proyecto en vivo",
+      viewDesign: "Ver diseño en Figma",
+      caseStudyLabel: "Ver detalles",
+      caseStudyDefault: "Problema → proceso → diseño → desarrollo → resultado.",
       featured: [
         {
-          title: "E-Commerce Platform",
+          title: "Aplicación R.U.T.A",
           description:
-            "Plataforma de comercio electronico completa con carrito de compras, pagos con Stripe, panel de administracion y gestion de inventario. Incluye autenticacion de usuarios y dashboard analitico.",
+            "Aplicación de transporte público diseñada para ayudar a los usuarios a encontrar rutas de autobús según su origen, destino y preferencias. Busca simplificar la elección de recorridos, identificar paradas y comprender transbordos mediante recomendaciones claras y personalizadas",
         },
         {
-          title: "Task Management App",
+          title: "Diseño web para un ERP (Enterprise Resource Planning)",
           description:
-            "Aplicacion de gestion de tareas con drag and drop, colaboracion en tiempo real, notificaciones y organizacion por proyectos. Implementa WebSockets para actualizaciones en vivo.",
-        },
-        {
-          title: "AI Content Generator",
-          description:
-            "Herramienta de generacion de contenido impulsada por IA que permite crear articulos, posts para redes sociales y descripciones de productos utilizando modelos de lenguaje avanzados.",
+            "Diseño de una plataforma ERP enfocada en centralizar y simplificar la gestión de diferentes áreas de una empresa, con una interfaz clara, organizada y fácil de navegar",
         },
       ],
       other: [
         {
-          title: "Weather Dashboard",
-          description:
-            "Dashboard del clima con pronosticos extendidos, graficos interactivos y geolocalizacion.",
+          title: "Outdoor Experience Website",
+          description: "Diseño y desarrollo de un sitio web para una empresa de cacería en Sonora, enfocado en presentar sus servicios, experiencia y destinos mediante una interfaz visual, clara y responsive",
         },
         {
-          title: "Shop Template",
-          description: "Template de tienda minimalista y responsive para desarrolladores.",
-        },
-        {
-          title: "URL Shortener",
-          description: "Acortador de URLs con analiticas, QR codes y enlaces personalizados.",
-        },
-        {
-          title: "Chat Application",
-          description:
-            "Aplicacion de chat en tiempo real con salas, mensajes privados y compartir archivos.",
-        },
-        {
-          title: "Expense Tracker",
-          description:
-            "Rastreador de gastos personales con categorias, graficos y exportacion de datos.",
-        },
-        {
-          title: "API REST Starter",
-          description:
-            "Boilerplate para APIs REST con autenticacion JWT, validacion y documentacion.",
+          title: "Diseño E-commerce ",
+          description: "Diseño y desarrollo de una tienda en línea enfocada en ofrecer una experiencia de compra intuitiva y visualmente atractiva, con navegación por categorías, organización de productos y una interfaz adaptable a diferentes dispositivos",
         },
       ],
     },
@@ -110,9 +88,9 @@ export const translations = {
       sectionTitle: "Habilidades",
       categories: [
         { title: "Frontend" },
-        { title: "Backend" },
-        { title: "DevOps & Herramientas" },
-        { title: "Otros" },
+{ title: "Diseño de producto" },
+  { title: "Desarrollo web" },
+  { title: "Herramientas" },
       ],
     },
     // Contact
@@ -140,11 +118,11 @@ export const translations = {
     // Hero
     hero: {
       greeting: "Hi, my name is",
-      tagline: "I build digital experiences",
+      tagline: "Web Designer & Developer",
       description:
-        "I am a Full Stack developer specialized in building modern, scalable web applications with excellent user experiences. Currently focused on creating digital products that combine elegant design with robust engineering.",
-      descriptionHighlight: "Full Stack developer",
-      cta: "View Projects",
+        "I am a web developer focused on creating modern, functional, and visually engaging websites and digital experiences. I combine interface design with frontend development to build intuitive products with a distinctive visual identity.",
+      descriptionHighlight: "interface design and frontend development",
+      cta: "View Project",
       ctaContact: "Contact Me",
     },
     // Experience
@@ -156,11 +134,11 @@ export const translations = {
       jobs: [
         {
           period: "2026 — Present",
-          title: "Full Stack Developer",
+          title: "Web Designer & Developer",
           company: "Freelancer",
           companyUrl: "#",
           description:
-            "Full Stack developer with solid experience in the design, development, and deployment of web applications using a wide range of programming languages and technologies. Able to work on both frontend and backend, ensuring efficient, scalable solutions aligned with best development practices.",
+            "I design and build modern web experiences from concept to implementation, combining clear interfaces, responsive layouts, and maintainable frontend development to solve real communication and usability needs.",
         },
         {
           period: "2024 — 2026",
@@ -168,7 +146,7 @@ export const translations = {
           company: "MA Designs",
           companyUrl: "https://www.agenciamadesigns.com/inicio",
           description:
-            "Responsible for the design and development of websites, managing both frontend and backend comprehensively. In charge of creating attractive and functional interfaces, as well as implementing the logic and structure needed to ensure optimal performance and an efficient user experience.",
+            "I designed and developed websites across frontend and backend, creating attractive, functional interfaces and implementing the structure needed for reliable performance and an efficient user experience.",
         },
       ],
     },
@@ -180,51 +158,31 @@ export const translations = {
       otherTitle: "Other Projects",
       githubLabel: "View code on GitHub",
       liveLabel: "View live project",
+      viewDesign: "View Figma design",
+      caseStudyLabel: "View details",
+      caseStudyDefault: "Problem → process → design → development → result.",
       featured: [
         {
-          title: "E-Commerce Platform",
+          title: "R.U.T.A. App",
           description:
-            "Full-featured e-commerce platform with shopping cart, Stripe payments, admin dashboard, and inventory management. Includes user authentication and an analytics dashboard.",
+            "Public transportation app designed to help people find bus routes by origin, destination, and preferences, making stops and transfers easier to understand.",
         },
         {
-          title: "Task Management App",
+          title: "ERP Web Design",
           description:
-            "Task management application with drag and drop, real-time collaboration, notifications, and project organization. Implements WebSockets for live updates.",
-        },
-        {
-          title: "AI Content Generator",
-          description:
-            "AI-powered content generation tool that lets you create articles, social media posts, and product descriptions using advanced language models.",
+            "ERP platform interface designed to centralize business operations with a clear, organized, and easy-to-navigate experience.",
         },
       ],
       other: [
         {
-          title: "Weather Dashboard",
+          title: "Outdoor Experience Website",
           description:
-            "Weather dashboard with extended forecasts, interactive charts, and geolocation.",
+            "Website designed and developed for a hunting company in Sonora, presenting its services, experience, and destinations through a clear responsive interface.",
         },
         {
-          title: "Shop Template",
-          description: "Minimalist, responsive shop template for developers.",
-        },
-        {
-          title: "URL Shortener",
-          description: "URL shortener with analytics, QR codes, and custom links.",
-        },
-        {
-          title: "Chat Application",
+          title: "E-commerce Design",
           description:
-            "Real-time chat application with rooms, private messages, and file sharing.",
-        },
-        {
-          title: "Expense Tracker",
-          description:
-            "Personal expense tracker with categories, charts, and data export.",
-        },
-        {
-          title: "API REST Starter",
-          description:
-            "Boilerplate for REST APIs with JWT authentication, validation, and documentation.",
+            "Online store designed and developed around an intuitive shopping experience, with category navigation, organized products, and responsive layouts.",
         },
       ],
     },
@@ -234,9 +192,9 @@ export const translations = {
       sectionTitle: "Skills",
       categories: [
         { title: "Frontend" },
-        { title: "Backend" },
-        { title: "DevOps & Tools" },
-        { title: "Other" },
+{ title: "Product design" },
+  { title: "Web development" },
+  { title: "Tools" },
       ],
     },
     // Contact
@@ -245,7 +203,7 @@ export const translations = {
       preTitle: "04. What's next?",
       title: "Let's Talk",
       description:
-        "I am currently open to new opportunities and my inbox is always available. Whether you have a question, a project proposal, or just want to say hi, I will do my best to get back to you.",
+        "I am currently open to new opportunities and my inbox is always available. Whether you have a question, a project proposal, or simply want to say hello, I will do my best to get back to you.",
       cta: "Send Email",
     },
     // Footer
