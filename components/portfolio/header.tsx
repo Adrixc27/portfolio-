@@ -11,13 +11,6 @@ const socialLinks = [
 
 const navIds = ["about", "experience", "projects", "contact"] as const
 
-function scrollToSection(id: string) {
-  const el = document.getElementById(id)
-  if (el) {
-    el.scrollIntoView({ behavior: "smooth", block: "start" })
-  }
-}
-
 export function Header() {
   const { language, setLanguage, t } = useLanguage()
 
@@ -41,12 +34,12 @@ export function Header() {
         <ul className="hidden md:flex items-center gap-8">
           {navIds.map((id) => (
             <li key={id}>
-              <button
-                onClick={() => scrollToSection(id)}
-                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium cursor-pointer"
+              <a
+                href={`#${id}`}
+                className="text-muted-foreground hover:text-primary transition-colors text-sm font-medium"
               >
                 {navLabels[id]}
-              </button>
+              </a>
             </li>
           ))}
         </ul>
