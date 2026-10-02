@@ -6,7 +6,7 @@ import { useLanguage } from "@/lib/language-context"
 
 const featuredMeta = [
   { technologies: ["C#", "WPF"], github: "https://github.com/Adrixc27/Ruta-App",  live: "https://github.com/Adrixc27/Ruta-App",kind: "code" },
-  { technologies: ["Figma", "UI Design", "Prototyping"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
+  { technologies: ["Figma", "UI Design", "Prototyping"], github: "https://www.figma.com/design/aaU3ToSaBldVbi8UxRK9G6/Sin-t%C3%ADtulo?node-id=0-1&t=hJC4yl4PtqZoLpVg-1", live: "https://www.figma.com/design/aaU3ToSaBldVbi8UxRK9G6/Sin-t%C3%ADtulo?node-id=0-1&t=hJC4yl4PtqZoLpVg-1", kind: "figma" },
   { technologies: ["Figma", "UX Strategy", "Art Direction"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "enjambre" },
 ]
 
