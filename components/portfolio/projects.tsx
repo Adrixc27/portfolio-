@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useLanguage } from "@/lib/language-context"
 
 const featuredMeta = [
-  { technologies: ["Next.js", "TypeScript", "Tailwind CSS"], github: "https://github.com/Adrixc27/portfolio-", live: "https://github.com/Adrixc27/portfolio-", kind: "code" },
+  { technologies: ["Next.js", "TypeScript", "Tailwind CSS"], github: "https://github.com/Adrixc27/Ruta-App", live: "https://github.com/Adrixc27/Ruta-App", kind: "code" },
   { technologies: ["Figma", "UI Design", "Prototyping"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
   { technologies: ["Figma", "UX Strategy", "Art Direction"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "enjambre" },
 ]
