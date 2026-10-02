@@ -42,7 +42,7 @@ export const translations = {
           period: "2024 — 2026",
           title: "Junior Developer",
           company: "MA Designs",
-          companyUrl: "https://www.agenciamadesigns.com/inicio",
+          companyUrl: "https://www.agenciamadesigns.com/",
           description:
             "Responsable del diseno y desarrollo de sitios web, gestionando de manera integral tanto el frontend como el backend. Encargado de crear interfaces atractivas y funcionales, asi como de implementar la logica y estructura necesarias para garantizar un rendimiento optimo y una experiencia de usuario eficiente.",
         },
