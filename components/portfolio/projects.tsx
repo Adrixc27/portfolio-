@@ -15,14 +15,14 @@ type ProjectMeta = {
 }
 
 const featuredMeta: ProjectMeta[] = [
-  { technologies: ["C#", "WPF"], github: "https://github.com/Adrixc27/Ruta-App", live: "https://github.com/Adrixc27/Ruta-App", kind: "code" },
-  { technologies: ["Figma", "UI Design", "Prototyping"], live: "https://www.figma.com/design/aaU3ToSaBldVbi8UxRK9G6/Sin-t%C3%ADtulo?node-id=0-1&t=hJC4yl4PtqZoLpVg-1", kind: "figma" },
+  { technologies: ["C#", "WPF"], github: "https://github.com/Adrixc27/Ruta-App", live: "https://github.com/Adrixc27/Ruta-App", kind: "code", image: "/projects/ruta.png", imageAlt: "Interfaz de la aplicación R.U.T.A para planificar rutas de transporte público" },
+  { technologies: ["Figma", "UI Design", "Prototyping"], live: "https://www.figma.com/design/aaU3ToSaBldVbi8UxRK9G6/Sin-t%C3%ADtulo?node-id=0-1&t=hJC4yl4PtqZoLpVg-1", kind: "figma", image: "/projects/erp.png", imageAlt: "Dashboard de gestión empresarial ERP" },
   { technologies: ["Figma", "UX Strategy", "Art Direction"], live: "https://www.figma.com/community", kind: "enjambre" },
 ]
 
 const otherMeta: ProjectMeta[] = [
-  { technologies: ["HTML", "CSS", "JavaScript"], live: "https://gutierrezoutfitter.com", kind: "web" },
-  { technologies: ["Figma", "Auto Layout"], live: "https://www.figma.com/design/nHOTClJPBJuBGpEDvpaCfw/Sin-t%C3%ADtulo?node-id=6-67&t=hJC4yl4PtqZoLpVg-1", kind: "figma" },
+  { technologies: ["HTML", "CSS", "JavaScript"], live: "https://gutierrezoutfitter.com", kind: "web", image: "/projects/outdoor.png", imageAlt: "Página web de Outdoor Experience en un paisaje natural" },
+  { technologies: ["Figma", "Auto Layout"], live: "https://www.figma.com/design/nHOTClJPBJuBGpEDvpaCfw/Sin-t%C3%ADtulo?node-id=6-67&t=hJC4yl4PtqZoLpVg-1", kind: "figma", image: "/projects/ecommerce.png", imageAlt: "Diseño de tienda e-commerce para productos profesionales" },
   { technologies: ["React", "Responsive UI", "Web Design"], live: "https://adrixc27.github.io/Pagina/gato.html", kind: "web" },
   { technologies: ["Figma", "UX Flow", "Prototyping"], live: "https://www.figma.com/community", kind: "figma" },
 ]
