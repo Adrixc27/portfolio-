@@ -68,7 +68,7 @@ export const translations = {
         {
           title: "Diseño web para un ERP (Enterprise Resource Planning)",
           description:
-            "Diseño de interfaz en Figma con componentes, estilos y prototipos interactivos para construir productos digitales consistentes y fáciles de escalar.",
+            "Diseño de una plataforma ERP enfocada en centralizar y simplificar la gestión de diferentes áreas de una empresa, con una interfaz clara, organizada y fácil de navegar",
         },
       ],
       other: [
