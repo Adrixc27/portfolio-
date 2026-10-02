@@ -11,7 +11,7 @@ const featuredMeta = [
 ]
 
 const otherMeta = [
-  { technologies: ["HTML", "CSS", "JavaScript"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html", kind: "web" },
+  { technologies: ["HTML", "CSS", "JavaScript"], github: "https://gutierrezoutfitter.com", live: "https://gutierrezoutfitter.com", kind: "web" },
   { technologies: ["Figma", "UI Kit", "Auto Layout"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
   { technologies: ["React", "Responsive UI", "Web Design"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html", kind: "web" },
   { technologies: ["Figma", "UX Flow", "Prototyping"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
