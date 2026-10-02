@@ -18,7 +18,7 @@ export const translations = {
       greeting: "Hola, mi nombre es",
       tagline: "Web Designer & Developer",
       description:
-        "Combino diseño de interfaces y desarrollo front-end para convertir ideas complejas en experiencias digitales claras, útiles y visualmente memorables.",
+        "Soy un desarrollador web enfocado en crear sitios y experiencias digitales modernas, funcionales y visualmente atractivas. Me interesa combinar el diseño de interfaces con el desarrollo frontend para construir productos digitales que ofrezcan una experiencia intuitiva y una identidad visual única",
       descriptionHighlight: "diseño de interfaces y desarrollo front-end",
       cta: "Ver Proyecto",
       ctaContact: "Contactame",
