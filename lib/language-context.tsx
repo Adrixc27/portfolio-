@@ -20,7 +20,7 @@ export const translations = {
       description:
         "Soy un desarrollador Full Stack especializado en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario. Actualmente enfocado en construir productos digitales que combinen diseño elegante con ingenieria robusta.",
       descriptionHighlight: "desarrollador Full Stack",
-      cta: "Ver Proyectos",
+      cta: "Ver Proyecto",
       ctaContact: "Contactame",
     },
     // Experience
