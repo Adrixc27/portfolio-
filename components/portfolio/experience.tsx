@@ -64,13 +64,6 @@ export function Experience() {
           ))}
         </div>
 
-        <Link
-          href="/resume.pdf"
-          className="mt-12 inline-flex items-center gap-2 text-primary hover:underline font-medium"
-        >
-          {t.experience.viewResume}
-          <ArrowUpRight className="h-4 w-4" />
-        </Link>
       </div>
     </section>
   )
