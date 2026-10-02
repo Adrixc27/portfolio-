@@ -1,13 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Github, Linkedin } from "lucide-react"
+import { Mail, Github } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com/in/tuusuario", icon: Linkedin, label: "LinkedIn" },
-  { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
+  { href: "mailto:adrimend0407@gmail.com", icon: Mail, label: "adrimend0407@gmail.com" },
 ]
 
 export function Contact() {
@@ -27,7 +26,7 @@ export function Contact() {
         </p>
 
         <Link
-          href="mailto:tu@email.com"
+          href="mailto:adrimend0407@gmail.com"
           className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-medium rounded-md hover:opacity-90 transition-opacity text-lg"
         >
           <Mail className="h-5 w-5" />

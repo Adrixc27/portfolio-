@@ -16,10 +16,10 @@ export const translations = {
     // Hero
     hero: {
       greeting: "Hola, mi nombre es",
-      tagline: "Construyo experiencias digitales",
+      tagline: "Web Designer & Developer",
       description:
-        "Soy un desarrollador Full Stack especializado en crear aplicaciones web modernas, escalables y con una excelente experiencia de usuario. Actualmente enfocado en construir productos digitales que combinen diseño elegante con ingenieria robusta.",
-      descriptionHighlight: "desarrollador Full Stack",
+        "Combino diseño de interfaces y desarrollo front-end para convertir ideas complejas en experiencias digitales claras, útiles y visualmente memorables.",
+      descriptionHighlight: "diseño de interfaces y desarrollo front-end",
       cta: "Ver Proyecto",
       ctaContact: "Contactame",
     },
@@ -54,8 +54,11 @@ export const translations = {
       sectionTitle: "Proyectos Destacados",
       featuredLabel: "Proyecto Destacado",
       otherTitle: "Otros Proyectos",
-      githubLabel: "Ver codigo en GitHub",
+      githubLabel: "Ver código en GitHub",
       liveLabel: "Ver proyecto en vivo",
+      viewDesign: "Ver diseño en Figma",
+      caseStudyLabel: "Ver detalles",
+      caseStudyDefault: "Problema → proceso → diseño → desarrollo → resultado.",
       featured: [
         {
           title: "Aplicación R.U.T.A",
@@ -100,9 +103,9 @@ export const translations = {
       sectionTitle: "Habilidades",
       categories: [
         { title: "Frontend" },
-        { title: "Backend" },
-        { title: "DevOps & Herramientas" },
-        { title: "Otros" },
+{ title: "Diseño de producto" },
+  { title: "Desarrollo web" },
+  { title: "Herramientas" },
       ],
     },
     // Contact
@@ -170,6 +173,9 @@ export const translations = {
       otherTitle: "Other Projects",
       githubLabel: "View code on GitHub",
       liveLabel: "View live project",
+      viewDesign: "View Figma design",
+      caseStudyLabel: "View details",
+      caseStudyDefault: "Problem → process → design → development → result.",
       featured: [
         {
           title: "Full Stack Portfolio on GitHub",
@@ -214,9 +220,9 @@ export const translations = {
       sectionTitle: "Skills",
       categories: [
         { title: "Frontend" },
-        { title: "Backend" },
-        { title: "DevOps & Tools" },
-        { title: "Other" },
+{ title: "Product design" },
+  { title: "Web development" },
+  { title: "Tools" },
       ],
     },
     // Contact

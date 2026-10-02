@@ -1,13 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Mail } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
-  { href: "https://www.linkedin.com/in/adrian-mendoza-1b36b9400/", icon: Linkedin, label: "LinkedIn" },
-  { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
+  { href: "mailto:adrimend0407@gmail.com", icon: Mail, label: "adrimend0407@gmail.com" },
 ]
 
 const navIds = ["about", "experience", "projects", "contact"] as const

@@ -1,13 +1,12 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Mail } from "lucide-react"
 import { useLanguage } from "@/lib/language-context"
 
 const socialLinks = [
   { href: "https://github.com/Adrixc27", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com/in/tuusuario", icon: Linkedin, label: "LinkedIn" },
-  { href: "mailto:tu@email.com", icon: Mail, label: "Email" },
+  { href: "mailto:adrimend0407@gmail.com", icon: Mail, label: "adrimend0407@gmail.com" },
 ]
 
 export function Footer() {
