@@ -5,14 +5,14 @@ import Link from "next/link"
 import { useLanguage } from "@/lib/language-context"
 
 const featuredMeta = [
-  { technologies: ["Next.js", "TypeScript", "Tailwind CSS"], github: "https://github.com/Adrixc27/Ruta-App",  live: "https://github.com/Adrixc27/Ruta-App",kind: "code" },
+  { technologies: ["C#", "WPF"], github: "https://github.com/Adrixc27/Ruta-App",  live: "https://github.com/Adrixc27/Ruta-App",kind: "code" },
   { technologies: ["Figma", "UI Design", "Prototyping"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
   { technologies: ["Figma", "UX Strategy", "Art Direction"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "enjambre" },
 ]
 
 const otherMeta = [
   { technologies: ["HTML", "CSS", "JavaScript"], github: "https://gutierrezoutfitter.com", live: "https://gutierrezoutfitter.com", kind: "web" },
-  { technologies: ["Figma", "UI Kit", "Auto Layout"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
+  { technologies: ["Figma", "Auto Layout"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
   { technologies: ["React", "Responsive UI", "Web Design"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html", kind: "web" },
   { technologies: ["Figma", "UX Flow", "Prototyping"], github: "https://www.figma.com/community", live: "https://www.figma.com/community", kind: "figma" },
 ]
