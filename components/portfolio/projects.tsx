@@ -6,29 +6,27 @@ import { useLanguage } from "@/lib/language-context"
 
 const featuredMeta = [
   {
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe"],
-    github: "https://github.com",
-    live: "https://adrixc27.github.io/Pagina/gato.html",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "GitHub"],
+    github: "https://github.com/Adrixc27/portfolio-",
+    live: "https://github.com/Adrixc27/portfolio-",
   },
   {
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Redis"],
-    github: "https://github.com",
-    live: "https://adrixc27.github.io/Pagina/gato.html",
+    technologies: ["Figma", "UI Design", "Design System", "Prototyping"],
+    github: "https://www.figma.com/community",
+    live: "https://www.figma.com/community",
   },
   {
-    technologies: ["Next.js", "OpenAI API", "Vercel AI SDK", "Supabase"],
-    github: "https://github.com",
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    github: "https://github.com/Adrixc27",
     live: "https://adrixc27.github.io/Pagina/gato.html",
   },
 ]
 
 const otherMeta = [
-  { technologies: ["React", "Chart.js", "OpenWeather API"], github: "https://github.com", live: "#" },
-  { technologies: ["Next.js", "Tailwind CSS", "Framer Motion"], github: "https://github.com", live: "#" },
-  { technologies: ["Node.js", "Express", "Redis", "PostgreSQL"], github: "https://github.com", live: "#" },
-  { technologies: ["Socket.io", "React", "Node.js", "AWS S3"], github: "https://github.com", live: "#" },
-  { technologies: ["React Native", "Firebase", "Expo"], github: "https://github.com", live: "#" },
-  { technologies: ["Node.js", "Express", "Swagger", "Jest"], github: "https://github.com", live: "#" },
+  { technologies: ["React", "Chart.js", "Responsive UI"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html" },
+  { technologies: ["Next.js", "Tailwind CSS", "Landing Page"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html" },
+  { technologies: ["Figma", "UI Kit", "Auto Layout"], github: "https://www.figma.com/community", live: "https://www.figma.com/community" },
+  { technologies: ["HTML", "CSS", "JavaScript", "Web Design"], github: "https://github.com/Adrixc27", live: "https://adrixc27.github.io/Pagina/gato.html" },
 ]
 
 export function Projects() {

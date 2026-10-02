@@ -58,49 +58,39 @@ export const translations = {
       liveLabel: "Ver proyecto en vivo",
       featured: [
         {
-          title: "E-Commerce Platform",
+          title: "Portfolio Full Stack en GitHub",
           description:
-            "Plataforma de comercio electronico completa con carrito de compras, pagos con Stripe, panel de administracion y gestion de inventario. Incluye autenticacion de usuarios y dashboard analitico.",
+            "Proyecto personal publicado en GitHub que reúne una arquitectura moderna, componentes reutilizables y una experiencia responsive enfocada en presentar trabajo digital de forma profesional.",
         },
         {
-          title: "Task Management App",
+          title: "Sistema de diseño para Figma",
           description:
-            "Aplicacion de gestion de tareas con drag and drop, colaboracion en tiempo real, notificaciones y organizacion por proyectos. Implementa WebSockets para actualizaciones en vivo.",
+            "Diseño de interfaz en Figma con componentes, estilos y prototipos interactivos para construir productos digitales consistentes y fáciles de escalar.",
         },
         {
-          title: "AI Content Generator",
+          title: "Landing Page Corporativa",
           description:
-            "Herramienta de generacion de contenido impulsada por IA que permite crear articulos, posts para redes sociales y descripciones de productos utilizando modelos de lenguaje avanzados.",
+            "Página web corporativa orientada a conversión, con jerarquía visual clara, navegación intuitiva y una identidad visual sobria para marcas profesionales.",
         },
       ],
       other: [
         {
-          title: "Weather Dashboard",
+          title: "Dashboard Analítico",
           description:
-            "Dashboard del clima con pronosticos extendidos, graficos interactivos y geolocalizacion.",
+            "Interfaz web para visualizar métricas de negocio mediante tarjetas, tablas y gráficos responsive.",
         },
         {
-          title: "Shop Template",
-          description: "Template de tienda minimalista y responsive para desarrolladores.",
+          title: "Landing Page para SaaS",
+          description: "Página web minimalista para presentar un producto digital y sus beneficios.",
         },
         {
-          title: "URL Shortener",
-          description: "Acortador de URLs con analiticas, QR codes y enlaces personalizados.",
+          title: "Kit UI para Figma",
+          description: "Colección de componentes y pantallas reutilizables para acelerar el diseño de productos.",
         },
         {
-          title: "Chat Application",
+          title: "Página Web de Agencia",
           description:
-            "Aplicacion de chat en tiempo real con salas, mensajes privados y compartir archivos.",
-        },
-        {
-          title: "Expense Tracker",
-          description:
-            "Rastreador de gastos personales con categorias, graficos y exportacion de datos.",
-        },
-        {
-          title: "API REST Starter",
-          description:
-            "Boilerplate para APIs REST con autenticacion JWT, validacion y documentacion.",
+            "Sitio web elegante para una agencia creativa, con secciones de servicios, proyectos y contacto.",
         },
       ],
     },
@@ -182,49 +172,39 @@ export const translations = {
       liveLabel: "View live project",
       featured: [
         {
-          title: "E-Commerce Platform",
+          title: "Full Stack Portfolio on GitHub",
           description:
-            "Full-featured e-commerce platform with shopping cart, Stripe payments, admin dashboard, and inventory management. Includes user authentication and an analytics dashboard.",
+            "Personal project published on GitHub with modern architecture, reusable components, and a responsive experience focused on presenting digital work professionally.",
         },
         {
-          title: "Task Management App",
+          title: "Figma Design System",
           description:
-            "Task management application with drag and drop, real-time collaboration, notifications, and project organization. Implements WebSockets for live updates.",
+            "Figma interface design with components, styles, and interactive prototypes for building consistent, scalable digital products.",
         },
         {
-          title: "AI Content Generator",
+          title: "Corporate Landing Page",
           description:
-            "AI-powered content generation tool that lets you create articles, social media posts, and product descriptions using advanced language models.",
+            "Conversion-focused corporate website with clear visual hierarchy, intuitive navigation, and a refined identity for professional brands.",
         },
       ],
       other: [
         {
-          title: "Weather Dashboard",
+          title: "Analytics Dashboard",
           description:
-            "Weather dashboard with extended forecasts, interactive charts, and geolocation.",
+            "Web interface for visualizing business metrics through cards, tables, and responsive charts.",
         },
         {
-          title: "Shop Template",
-          description: "Minimalist, responsive shop template for developers.",
+          title: "SaaS Landing Page",
+          description: "Minimalist website for presenting a digital product and its benefits.",
         },
         {
-          title: "URL Shortener",
-          description: "URL shortener with analytics, QR codes, and custom links.",
+          title: "Figma UI Kit",
+          description: "Collection of reusable components and screens to speed up product design.",
         },
         {
-          title: "Chat Application",
+          title: "Agency Website",
           description:
-            "Real-time chat application with rooms, private messages, and file sharing.",
-        },
-        {
-          title: "Expense Tracker",
-          description:
-            "Personal expense tracker with categories, charts, and data export.",
-        },
-        {
-          title: "API REST Starter",
-          description:
-            "Boilerplate for REST APIs with JWT authentication, validation, and documentation.",
+            "Elegant website for a creative agency with services, projects, and contact sections.",
         },
       ],
     },
