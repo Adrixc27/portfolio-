@@ -36,7 +36,7 @@ export const translations = {
           company: "Freelancer",
           companyUrl: "#",
           description:
-            "Desarrollador Full Stack con solida experiencia en el diseno, desarrollo e implementacion de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologias de programacion. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores practicas de desarrollo.",
+            "Desarrollador Web con solida experiencia en el diseño, desarrollo e implementacion de aplicaciones web, utilizando una amplia variedad de lenguajes y tecnologias de programacion. Capaz de trabajar tanto en el frontend como en el backend, asegurando soluciones eficientes, escalables y orientadas a las mejores practicas de desarrollo.",
         },
         {
           period: "2024 — 2026",
