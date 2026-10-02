@@ -118,11 +118,11 @@ export const translations = {
     // Hero
     hero: {
       greeting: "Hi, my name is",
-      tagline: "I build digital experiences",
+      tagline: "Web Designer & Developer",
       description:
-        "I am a Full Stack developer specialized in building modern, scalable web applications with excellent user experiences. Currently focused on creating digital products that combine elegant design with robust engineering.",
-      descriptionHighlight: "Full Stack developer",
-      cta: "View Projects",
+        "I am a web developer focused on creating modern, functional, and visually engaging websites and digital experiences. I combine interface design with frontend development to build intuitive products with a distinctive visual identity.",
+      descriptionHighlight: "interface design and frontend development",
+      cta: "View Project",
       ctaContact: "Contact Me",
     },
     // Experience
@@ -134,11 +134,11 @@ export const translations = {
       jobs: [
         {
           period: "2026 — Present",
-          title: "Full Stack Developer",
+          title: "Web Designer & Developer",
           company: "Freelancer",
           companyUrl: "#",
           description:
-            "Full Stack developer with solid experience in the design, development, and deployment of web applications using a wide range of programming languages and technologies. Able to work on both frontend and backend, ensuring efficient, scalable solutions aligned with best development practices.",
+            "I design and build modern web experiences from concept to implementation, combining clear interfaces, responsive layouts, and maintainable frontend development to solve real communication and usability needs.",
         },
         {
           period: "2024 — 2026",
@@ -146,7 +146,7 @@ export const translations = {
           company: "MA Designs",
           companyUrl: "https://www.agenciamadesigns.com/inicio",
           description:
-            "Responsible for the design and development of websites, managing both frontend and backend comprehensively. In charge of creating attractive and functional interfaces, as well as implementing the logic and structure needed to ensure optimal performance and an efficient user experience.",
+            "I designed and developed websites across frontend and backend, creating attractive, functional interfaces and implementing the structure needed for reliable performance and an efficient user experience.",
         },
       ],
     },
@@ -163,39 +163,26 @@ export const translations = {
       caseStudyDefault: "Problem → process → design → development → result.",
       featured: [
         {
-          title: "Full Stack Portfolio on GitHub",
+          title: "R.U.T.A. App",
           description:
-            "Personal project published on GitHub with modern architecture, reusable components, and a responsive experience focused on presenting digital work professionally.",
+            "Public transportation app designed to help people find bus routes by origin, destination, and preferences, making stops and transfers easier to understand.",
         },
         {
-          title: "Figma Design System",
+          title: "ERP Web Design",
           description:
-            "Figma interface design with components, styles, and interactive prototypes for building consistent, scalable digital products.",
-        },
-        {
-          title: "Corporate Landing Page",
-          description:
-            "Conversion-focused corporate website with clear visual hierarchy, intuitive navigation, and a refined identity for professional brands.",
+            "ERP platform interface designed to centralize business operations with a clear, organized, and easy-to-navigate experience.",
         },
       ],
       other: [
         {
-          title: "Analytics Dashboard",
+          title: "Outdoor Experience Website",
           description:
-            "Web interface for visualizing business metrics through cards, tables, and responsive charts.",
+            "Website designed and developed for a hunting company in Sonora, presenting its services, experience, and destinations through a clear responsive interface.",
         },
         {
-          title: "SaaS Landing Page",
-          description: "Minimalist website for presenting a digital product and its benefits.",
-        },
-        {
-          title: "Figma UI Kit",
-          description: "Collection of reusable components and screens to speed up product design.",
-        },
-        {
-          title: "Agency Website",
+          title: "E-commerce Design",
           description:
-            "Elegant website for a creative agency with services, projects, and contact sections.",
+            "Online store designed and developed around an intuitive shopping experience, with category navigation, organized products, and responsive layouts.",
         },
       ],
     },
@@ -216,7 +203,7 @@ export const translations = {
       preTitle: "04. What's next?",
       title: "Let's Talk",
       description:
-        "I am currently open to new opportunities and my inbox is always available. Whether you have a question, a project proposal, or just want to say hi, I will do my best to get back to you.",
+        "I am currently open to new opportunities and my inbox is always available. Whether you have a question, a project proposal, or simply want to say hello, I will do my best to get back to you.",
       cta: "Send Email",
     },
     // Footer
