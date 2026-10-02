@@ -50,7 +50,7 @@ export function Hero() {
                 <img
                   src="/profile-photo.jpg"
                   alt="Foto de perfil"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover object-[center_42%] scale-[0.84] group-hover:scale-[0.88] transition-transform duration-300"
                   onError={(e) => {
                     e.currentTarget.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"%3E%3Crect fill="%23334155" width="400" height="400"/%3E%3Ccircle cx="200" cy="130" r="50" fill="%2364748b"/%3E%3Cpath d="M100 250 Q100 200 200 200Q300 200 300 250L300 350Q200 400 100 350Z" fill="%2364748b"/%3E%3C/svg%3E'
                   }}
