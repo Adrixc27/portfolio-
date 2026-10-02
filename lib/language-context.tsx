@@ -63,37 +63,22 @@ export const translations = {
         {
           title: "Aplicación R.U.T.A",
           description:
-            "Proyecto personal publicado en GitHub que reúne una arquitectura moderna, componentes reutilizables y una experiencia responsive enfocada en presentar trabajo digital de forma profesional.",
+            "Aplicación de transporte público diseñada para ayudar a los usuarios a encontrar rutas de autobús según su origen, destino y preferencias. Busca simplificar la elección de recorridos, identificar paradas y comprender transbordos mediante recomendaciones claras y personalizadas",
         },
         {
-          title: "Sistema de diseño para Figma",
+          title: "Diseño web para un ERP (Enterprise Resource Planning)",
           description:
             "Diseño de interfaz en Figma con componentes, estilos y prototipos interactivos para construir productos digitales consistentes y fáciles de escalar.",
-        },
-        {
-          title: "Landing Page Corporativa",
-          description:
-            "Página web corporativa orientada a conversión, con jerarquía visual clara, navegación intuitiva y una identidad visual sobria para marcas profesionales.",
         },
       ],
       other: [
         {
-          title: "Dashboard Analítico",
-          description:
-            "Interfaz web para visualizar métricas de negocio mediante tarjetas, tablas y gráficos responsive.",
+          title: "Outdoor Experience Website",
+          description: "Diseño y desarrollo de un sitio web para una empresa de cacería en Sonora, enfocado en presentar sus servicios, experiencia y destinos mediante una interfaz visual, clara y responsive",
         },
         {
-          title: "Landing Page para SaaS",
-          description: "Página web minimalista para presentar un producto digital y sus beneficios.",
-        },
-        {
-          title: "Kit UI para Figma",
-          description: "Colección de componentes y pantallas reutilizables para acelerar el diseño de productos.",
-        },
-        {
-          title: "Página Web de Agencia",
-          description:
-            "Sitio web elegante para una agencia creativa, con secciones de servicios, proyectos y contacto.",
+          title: "Diseño E-commerce ",
+          description: "Diseño y desarrollo de una tienda en línea enfocada en ofrecer una experiencia de compra intuitiva y visualmente atractiva, con navegación por categorías, organización de productos y una interfaz adaptable a diferentes dispositivos",
         },
       ],
     },
