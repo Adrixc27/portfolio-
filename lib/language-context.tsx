@@ -32,7 +32,7 @@ export const translations = {
       jobs: [
         {
           period: "2026 — Presente",
-          title: "Full Stack Developer",
+          title: "Web Designer & Developer",
           company: "Freelancer",
           companyUrl: "#",
           description:
@@ -58,7 +58,7 @@ export const translations = {
       liveLabel: "Ver proyecto en vivo",
       featured: [
         {
-          title: "Portfolio Full Stack en GitHub",
+          title: "Aplicación R.U.T.A",
           description:
             "Proyecto personal publicado en GitHub que reúne una arquitectura moderna, componentes reutilizables y una experiencia responsive enfocada en presentar trabajo digital de forma profesional.",
         },
