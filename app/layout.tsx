@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Tu Nombre | Full Stack Developer',
+  title: 'Adrian Mendoza | Developer',
   description: 'Portfolio de desarrollador Full Stack especializado en crear experiencias web modernas y escalables.',
   generator: 'v0.app',
   icons: {
