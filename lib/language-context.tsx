@@ -18,8 +18,8 @@ export const translations = {
       greeting: "Hola, mi nombre es",
       tagline: "Web Designer & Developer",
       description:
-        "Desarrollador web especializado en frontend y diseño UI/UX, enfocado en construir soluciones digitales intuitivas, atractivas y funcionales.",
-      descriptionHighlight: "frontend y diseño UI/UX",
+        "Desarrollador de software enfocado en crear soluciones digitales funcionales e intuitivas, combinando diseño, desarrollo frontend y backend para resolver problemas reales mediante la tecnología.",
+      descriptionHighlight: "diseño, desarrollo frontend y backend",
       cta: "Ver Proyecto",
       ctaContact: "Contactame",
     },
@@ -120,8 +120,8 @@ export const translations = {
       greeting: "Hi, my name is",
       tagline: "Web Designer & Developer",
       description:
-        "Web developer specialized in frontend and UI/UX design, focused on building intuitive, attractive, and functional digital solutions.",
-      descriptionHighlight: "frontend and UI/UX design",
+        "Software developer focused on creating functional and intuitive digital solutions, combining design, frontend, and backend development to solve real-world problems through technology.",
+      descriptionHighlight: "design, frontend, and backend development",
       cta: "View Project",
       ctaContact: "Contact Me",
     },
